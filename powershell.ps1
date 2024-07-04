@@ -10,4 +10,4 @@ $storageAccountName = "mystorageaccount"
 New-AzResourceGroup -Name $resourceGroupName -Location $location
 
 # Create a storage account
-New-AzStorageAccount -ResourceGroupName $resourceGroupName -Name $storageAccountName -Location $location -SkuName Standard_LRS
+New-AzStorageAccount -ResourceGroupName $resourceGroupName -Name $storageAccountName -Location $location -SkuName Standard_LRS 
