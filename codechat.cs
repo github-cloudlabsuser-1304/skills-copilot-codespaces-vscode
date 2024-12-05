@@ -1,3 +1,7 @@
+/// <summary>
+/// The Program class contains the main entry point for the Adventure Game.
+/// The game allows the player to make choices that affect their health and score.
+/// </summary>
 using System;
 
 class Program
@@ -40,8 +44,6 @@ class Program
                 {
                     Console.WriteLine("Invalid choice. Try again.");
                 }
-                }
-
                 health -= 10;
                 if (health <= 0)
                 {
